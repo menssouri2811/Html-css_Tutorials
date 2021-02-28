@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+#encabezado {
+    width: 100%;
+    height: 120px;
+   background-color: #009EDE;
+   box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.7) ;
+   border-radius: 0 0 15px 15px;
+}
+
+#encabezado img{    
+    margin-left: 40%;
+    width: 20%;
+    height:100%;
+}
+.aa{
+    width: 100%;
+    height: 100%;
+}
+
+.indice{ 
+    position:fixed;
+    width: 12%;
+    height: 60%;
+    background-color: #0394D2;
+    float: left;
+    margin-right: 2%;
+    box-shadow:10px 5px 30px 0 rgba(0, 0, 0, 0.7) ;
+    border-radius:0 15px 15px 0;
+    top:15%;
+    padding-top: 4%;
+}
+
+.indice p{
+    font-size: 20px;
+    color: #f0f8ff;
+}
+
+.contenido{
+    font-size: 25px;
+    float: right;
+    width: 86%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.css1 {
+    float: left;
+    width: 80%;
+    margin: 0;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #f0ecec;
+} 
+
+
+#table-ejemplo{
+    background-color: #c9c9c9;
+    border-style: solid;   
+    margin-left: 30%; 
+}
+
+#table-ejemplo *{
+    border-style: solid;
+    border-color: #4e4e4e;
+}
+
+.footer{
+    clear: both;
+    margin-top: 5px;
+    background-color:#009EDE;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.footer p{
+    margin: 0;
+    width: 70%;
+    margin-left: 32%;
+ 
+}
+
+.footer a{
+    margin: 5px;
+    margin-left: 5%;
+    font-size: 25px;
+    background-color: #eb9974;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #080808;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50%;
+}
+
+.footer a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: oblique;
+    border-style: solid;
+    border-radius: 10%;
+    border-color:#521783 ;
+    color: #0159a1;
+    transition: 0.8s;
+    box-shadow: 0 5px 5px 5px rgba(4, 4, 7, 0.7);
+   
+}
+
+.cajaCodi{
+    background-color: #fafafa;
+    border-style: solid;
+    border-color: #0394D2;
+    margin: 5% ;
+}
+
+.codigo {
+    color: #ec1b09d3;
+}
+
+.lt{
+    color: #058dfd;
+}
+span{
+    color: #862ad1;
+}
+.texto{
+    color: #000;
+}
+h1{
+    color: #058dfd;
+    background-color: #f8f7cb;
+}
+h2{
+    color: #057ee0;
+    background-color:#fffda3 ;
+}
+h3{
+    color: #0269be;
+    background-color:#f3f038 ;
+}
+h4{
+    color: #0159a1;
+    background-color:#f6f321 ; 
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+div>ol>li,div>ol>li>ol>li{
+    list-style:none;
+   
+}
+
+.indice a{
+    color: #fff;
+    margin: 5%;
+    padding-bottom: 5%;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-color: #4e4e4e;
+}
+
+.indice a:hover {
+    font-size: 21px;
+    text-decoration: underline ;
+}
+
+.sintaxis{
+    color: #521783;
+}
+.lista{
+    list-style: none;
+}
+
+.colorBlue{
+    color: blue;
+}
+
+.hexaColor{
+    color:#29d80a;
+}
+.rgbColor{
+    color:rgb(41, 214, 10);
+}
+
+.colorBackBlue{
+    background-color: blue;
+}
+
+.hexaColorBack{
+    background-color:#29d80a;
+}
+.rgbColorBack{
+    background-color:rgb(41, 214, 10);
+}
+
+.borderDotted {
+    border-style:dotted ;
+    border-width: 5px;
+    border-color:#009EDE;
+}
+.borderDashed {
+    border-style:dashed ;
+    border-width: 5px;
+    border-color:#009EDE;
+}
+.borderSolid {
+    border-style:solid ;
+    border-width: 5px;
+    border-color:#009EDE;
+}
+.borderDouble {
+    border-style: double;
+    border-width: 5px;
+    border-color:#009EDE;
+}
+.borderGroove {
+    border-style: groove;
+    border-width: 5px;
+    border-color:#009EDE;
+}
+.borderInset{
+    border-style:inset ;
+    border-width: 5px;
+    border-color:#009EDE;
+}
+
+.borderWidth10 {
+    border-style:solid ;
+    border-width: 10px;
+    border-color:#009EDE;
+}
+.borderWidth5 {
+    border-style:solid ;
+    border-width: 5px;
+    border-color:#009EDE;
+}
+
+.borderRed {
+    border-style:solid ;
+    border-width: 5px;
+    border-color:red;
+}
+.borderBlack {
+    border-style:solid ;
+    border-width: 5px;
+    border-color:black;
+}
+.borderRadius5 {
+    border-style:solid ;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color:#009EDE;
+}
+.borderRadius10 {
+    border-style:solid ;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color:#009EDE;
+}

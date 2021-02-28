@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <link rel="stylesheet" href=estils/Styles2.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="recursos/html_css.jpg">
+    <title>css part1</title>
+    
+</head>
+
+<body>
+    <div id="encabezado">
+        <img src="recursos/CSS3a.png">
+    </div>
+    <div class="aa">
+        <div class="index">
+            <div class="indice">
+                <a href="#1">Propiedades</a>
+                <br>
+                <ul>
+                    <li><a href="#2">color</a></li>
+                    <li><a href="#3">background-color</a></li>
+                    <li><a href="#4">width y height</a></li>
+                    <li><a href="#5">Border</a></li>
+                        <ul>
+                            <li><a href="#6">border-style</a></li>
+                            <li><a href="#7">border-width</a></li>
+                            <li><a href="#8">border-color</a></li>
+                            <li><a href="#9">border-radius</a></li>
+                            
+                        </ul>
+                </ul>
+     
+                
+                </div>
+        </div>
+        
+            <div class="contenido">
+                <div class="css1">
+                    <div id="1" class="tags1">
+                        <h1>Propiedades</h1>
+                        <ol>  
+                            <li id="2">
+                                <h2>color</h2>
+                                <p>
+                                    La propiedad color sirve para establecer un color para el texto.
+                                    Los valores que puede llevar son:
+                                    <ul>
+                                        <li>Valores hexadecimales (#fcff50 un color verde).</li>
+                                        <li>Valores en rgb :rgb(252, 255, 82) es el mismo color anterior.</li>
+                                        <li>Tambien hay una gran lista de nombres de colores que se usan como valores (red,green,aquamarine...).</li>
+                                    </ul>
+                                </p>
+                                 <span class="sintaxis">Sintaxis</span>
+                                    <div class="cajaCodi">
+                                        <code class="codigo">
+                                            p<span class="lt">{</span><span class="texto">color:#29d80a;</span><span class="lt">}</span>
+                                            <p class="hexaColor">
+                                                Color en hexadecimale.
+                                            </p> 
+                                            p<span class="lt">{</span><span class="texto">color:rgb(41, 214, 10);</span><span class="lt">}</span>
+                                            <p class="rgbColor">
+                                                Color en rgb.
+                                            </p>
+                                            p<span class="lt">{</span><span class="texto">color:blue;</span><span class="lt">}</span>
+                                            <p class="colorBlue">
+                                                Color con nombre como valor.
+                                            </p>   
+                                        </code>
+                                    </div>
+                                    <hr>
+                            </li>
+                            <li id="3">
+                                <h2>background-color</h2>
+                                <p>
+                                Tiene la misma funcion que color cambiando el color del fondo el lugar del texto y lleva tambien los mismos valors.
+                                </p>
+                                <span class="sintaxis">Sintaxis</span>
+                                    <div class="cajaCodi">
+                                        <code class="codigo">
+                                            p<span class="lt">{</span><span class="texto">background-color:#29d80a;</span><span class="lt">}</span>
+                                            <p class="hexaColorBack">
+                                                Color en hexadecimale.
+                                            </p> 
+                                            p<span class="lt">{</span><span class="texto">background-color:rgb(41, 214, 10);</span><span class="lt">}</span>
+                                            <p class="rgbColorBack">
+                                                Color en rgb.
+                                            </p>
+                                            p<span class="lt">{</span><span class="texto">background-color:blue;</span><span class="lt">}</span>
+                                            <p class="colorBackBlue">
+                                                Color con nombre como valor.
+                                            </p>
+                                        </code>
+                                    </div>
+                                    <hr>
+                            </li>
+                            <li id="4">
+                                <h2>width y height</h2>
+                                <p>
+                                    Las propiedades height y width se utilizan para establecer la altura y el ancho de un elemento.
+
+                                    Las propiedades de alto y ancho no incluyen relleno, bordes ni márgenes. Establece la altura / ancho del área dentro del relleno, borde y margen del elemento.
+                                    
+                                    Se las puede asignar valores en %,px,cm,em....
+
+                                </p>
+                                <span class="sintaxis">Sintaxis</span>
+                                    <div class="cajaCodi">
+                                        <code class="codigo">
+                                            p<span class="lt">{</span><span class="texto">width:25px;height:30px;</span><span class="lt">}</span>
+                                            <br>
+                                            p<span class="lt">{</span><span class="texto">width:25%;height:30px</span>;</span><span class="lt">}</span>
+                                        </code>
+                                    </div>
+                                    <hr>
+                            </li>
+                            <li id="5">
+                                <h2>Border</h2>
+                                <p>
+                                    Las propiedades border de CSS le permiten especificar el estilo, el ancho y el color del borde de un elemento.
+                                </p>
+                                    <ul class="lista">
+                                        <li>
+                                            <h3>Propiedades de border</h3>
+                                            <ul class="lista">
+                                                <li id="6">
+                                                    <h4>border-style</h4>
+                                                    <p>La propiedadborder-style especifica qué tipo de borde a mostrar.
+        
+                                                        Se permiten los siguientes valores:
+                                                        <ul>
+                                                            <li>dotted - Define un borde punteado</li>
+                                                            <li>dashed - Define un borde punteado</li>
+                                                            <li>solid  - Define un borde sólido</li>
+                                                            <li>double - Define un borde doble</li>
+                                                            <li>groove - Define un borde acanalado en 3D. El efecto depende del valor del color del borde.</li>
+                                                            <li>inset  - Define un borde insertado en 3D. El efecto depende del valor del color del borde.</li>
+                                                            <li>none   - No define ningún borde</li>
+                                                            <li>hidden - Define un borde oculto</li>
+                                                        </ul>
+                                                        <span class="sintaxis">Sintaxis</span>
+                                                        <div class="cajaCodi">
+                                                            <code class="codigo">
+                                                                p<span class="lt">{</span><span class="texto">border-style:dotted;</span><span class="lt">}</span>
+                                                                <p class="borderDotted">
+                                                                    border dotted
+                                                                </p> 
+                                                                p<span class="lt">{</span><span class="texto">border-style:dashed;</span><span class="lt">}</span>
+                                                                <p class="borderDashed">
+                                                                    border dashed
+                                                                </p>
+                                                                p<span class="lt">{</span><span class="texto">border-style:solid;</span><span class="lt">}</span>
+                                                                <p class="borderSolid">
+                                                                    border solid
+                                                                </p>
+                                                                p<span class="lt">{</span><span class="texto">border-style:double;</span><span class="lt">}</span>
+                                                                <p class="borderDouble">
+                                                                    border double
+                                                                </p>
+                                                                p<span class="lt">{</span><span class="texto">border-style:groove;</span><span class="lt">}</span>
+                                                                <p class="borderGroove">
+                                                                    border groove
+                                                                </p>
+                                                                p<span class="lt">{</span><span class="texto">border-style:inset;</span><span class="lt">}</span>
+                                                                <p class="borderInset">
+                                                                    border inset
+                                                                </p>
+                                                                
+                                                            </code>
+                                                        </div>
+                                                        <hr>
+                                                </li>
+                                                <li id="7">
+                                                    <h4>border-width</h4>
+                                                    <p>
+                                                        La propiedad border-width especifica el ancho de los cuatro bordes.
+        
+                                                        El ancho se puede establecer como un tamaño específico (en px, pt, cm, em, etc.) o usando uno de los tres valores predefinidos: delgado, medio o grueso:
+                                                    </p>
+                                                    <span class="sintaxis">Sintaxis</span>
+                                                    <div class="cajaCodi">
+                                                        <code class="codigo">
+                                                            p<span class="lt">{</span><span class="texto">border-width:10px;</span><span class="lt">}</span>
+                                                            <p class="borderWidth10">
+                                                                border con 10px de width
+                                                            </p> 
+                                                            p<span class="lt">{</span><span class="texto">border-width:5px;</span><span class="lt">}</span>
+                                                            <p class="borderWidth5">
+                                                                border con 5px de width
+                                                            </p>
+                                                        </code>
+                                                    </div>
+                                                    <hr>
+                                                </li>
+                                                <li id="8">
+                                                    <h4>border-color</h4>
+                                                    <p>
+                                                        La propiedad border-color se utiliza para establecer el color de los cuatro bordes.
+                                                    </p>
+                                                    <span class="sintaxis">Sintaxis</span>
+                                                    <div class="cajaCodi">
+                                                        <code class="codigo">
+                                                            p<span class="lt">{</span><span class="texto">border-color:red;</span><span class="lt">}</span>
+                                                            <p class="borderRed">
+                                                                border red
+                                                            </p> 
+                                                            p<span class="lt">{</span><span class="texto">border-color:black;</span><span class="lt">}</span>
+                                                            <p class="borderBlack">
+                                                                border black
+                                                            </p>
+                                                        </code>
+                                                        <hr>
+                                                </li>
+                                                <li id="9">
+                                                    <h4>border-radius</h4>
+                                                    <p>
+                                                        La propiedad border-radius se usa para agregar bordes redondeados a un elemento
+                                                    </p>
+                                                    <span class="sintaxis">Sintaxis</span>
+                                                    <div class="cajaCodi">
+                                                        <code class="codigo">
+                                                            p<span class="lt">{</span><span class="texto">border-radius:10px;</span><span class="lt">}</span>
+                                                            <p class="borderRadius10">
+                                                                border con 10px de radius
+                                                            </p> 
+                                                            p<span class="lt">{</span><span class="texto">border-radius:5px;</span><span class="lt">}</span>
+                                                            <p class="borderRadius5">
+                                                                border con 5px de radius
+                                                            </p>
+                                                        </code>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                    
+                            </li>
+                        </ol>
+                        <hr>
+                    </div> 
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <br>
+        <p><a href="index.html">Home</a><a href="html1.html">Html part1</a><a href="html2.html">Html part2</a><a href="css1.html">Css part1</a></p>
+        <br>
+    </div>
+</body>
+
+</html>

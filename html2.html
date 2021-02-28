@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <link rel="stylesheet" href=estils/Styles1.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="recursos/html_css.jpg">
+    <title>html part2</title>
+    
+</head>
+
+<body>
+    
+    <div id="encabezado">
+        <img src="recursos/unnamed.jpg">
+    </div>
+    <div class="aa">
+            <div class="index">
+                <div class="indice">
+                    <a href="#1">Comentarios</a>
+                    <br>
+                    <a href="#2">Atributos</a>
+                    <br>
+                    <ul>
+                        <li><a href="#3">El atributo href</a></li>
+                        <li><a href="#4">El atributo src</a></li>
+                        <li><a href="#5">El atributo alt</a></li>
+                        <li><a href="#6">El atributo lang</a></li>
+                        <li><a href="#7">El atributo title</a></li>
+                    </ul>
+        
+                    
+                </div>
+            </div>
+            
+            <div class="contenido">
+                <div class="html1">
+                        <div id="1" class="tags1">
+                            <h1>Comentarios</h1>
+                            <p id="a">
+                                Con los comentarios, puede colocar notificaciones y recordatorios en su código HTML.
+                                Puede agregar comentarios a su fuente HTML utilizando la siguiente sintaxis:
+                                <br>
+                                <span class="sintaxis">Sintaxis</span>
+                                <div class="cajaCodi">
+                                    <code class="codigo">
+                                        <span class="lt">&lt;</span><span class="texto">!--Escribe aqui el comentario</span><span class="lt">&gt;</span>
+                                    </code>
+                                </div>
+                            </p>
+                            <hr>
+                        </div>
+                        <div id="2" class="tags1">
+                            <h1>Atributos</h1>
+                            <p>
+                                Todos los elementos HTML pueden tener atributos
+                                Los atributos proporcionan información adicional sobre los elementos.
+                                Los atributos siempre se especifican en la etiqueta de inicio
+                                Los atributos generalmente vienen en pares de nombre / valor como: nombre = "valor"    
+                            </p>
+                                <ol>  
+                                    <li id="3">
+                                        <h2>El atributo href</h2>
+                                        <p>La etiqueta <code class="codigo"> <span class="lt">&lt;</span>a<span class="lt">&gt;</span></code> define un hipervínculo. El hrefatributo especifica la URL de la página a la que va el enlace:</p>
+                                            <span class="sintaxis">Sintaxis</span>
+                                            <div class="cajaCodi">
+                                                <code class="codigo">
+                                                    <span class="lt">&lt;</span>a<span>href</span>="<span class="texto">ruta o enlace</span>"<span class="lt">&gt;</span><span class="texto">texto del enlace</span> <span class="lt">&lt;</span>/a<span class="lt">&gt;</span>    
+                                                </code>
+                                            </div>
+                                    </li>
+                                    <li id="4">
+                                        <h2>El atributo src</h2>
+                                        <p>
+                                            La etiqueta <code class="codigo"> <span class="lt">&lt;</span>img<span class="lt">&gt;</span></code> se utiliza para incrustar una imagen en una página HTML. El atributo src especifica la ruta a la imagen que se mostrará:
+                                        </p>
+                                        <span class="sintaxis">Sintaxis</span>
+                                            <div class="cajaCodi">
+                                                <code class="codigo">
+                                                    <span class="lt">&lt;</span>img<span> src</span>=<span class="texto">"ruta de la imagen"</span> <span> alt</span>=""<span class="lt">&gt;</span>
+                                                </code>
+                                            </div>
+                                    </li>
+                                    <li id="5">
+                                        <h2>El atributo alt</h2>
+                                        <p>
+                                            El atributo alt requerido para la etiqueta<code class="codigo"> <span class="lt">&lt;</span>img<span class="lt">&gt;</span></code>  especifica un texto alternativo para una imagen, si la imagen por alguna razón no se puede mostrar. Esto puede deberse a una conexión lenta, a un error en el atributo src o si el usuario utiliza un lector de pantalla.
+                                        </p>
+                                        <span class="sintaxis">Sintaxis</span>
+                                            <div class="cajaCodi">
+                                                <code class="codigo">
+                                                    <span class="lt">&lt;</span>img<span> src</span>=<span class="texto">"ruta de la imagen"</span> <span> alt</span>=<spam class="texto">"texto alternativo"</spam> <span class="lt">&gt;</span>
+                                                </code>
+                                            </div>
+                                    </li>
+                                    <li id="6">
+                                        <h2>El atributo lang</h2>
+                                        <p>
+                                            Siempre debe incluir el atributo lang dentro de la etiqueta <code class="codigo"> <span class="lt">&lt;</span>html<span class="lt">&gt;</span></code>, para declarar el idioma de la página web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.
+                                            <br>
+                                            El siguiente ejemplo especifica el inglés como idioma:
+                                        </p>
+                                        <span class="sintaxis">Sintaxis</span>
+                                        <div class="cajaCodi">
+                                            <code class="codigo">
+                                                <span class="lt">&lt;</span>html<span> lang</span>=<span class="texto">"en"</span><span class="lt">&gt;</span>
+                                            </code>
+                                        </div>
+                                    </li>
+                                    <li id="7">
+                                        <h2 >El atributo title</h2>
+                                        <p>
+                                            El atributo title define información adicional sobre un elemento.
+
+                                            El valor del atributo de título se mostrará como información sobre herramientas cuando pase el mouse sobre el elemento:       
+                                        </p>
+                                        <span class="sintaxis">Sintaxis</span>
+                                        <div class="cajaCodi">
+                                            <code class="codigo">
+                                                <span class="lt">&lt;</span>p<span> title</span>=<span class="texto">"un titulo"</span><span class="lt">&gt;</span><span class="texto">algun texto</span><span class="lt">&lt;</span>p<span class="lt">&gt;</span>
+                                            </code>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <br>
+        <p><a href="index.html">Home</a><a href="html1.html">Html part1</a><a href="css1.html">Css part1</a><a href="css2.html">Css part2</a></p>
+        <br>
+    </div>
+</body>
+
+</html>

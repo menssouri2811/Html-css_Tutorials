@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <link rel="stylesheet" href=estils/Styles1.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="recursos/html_css.jpg">
+    <title>html part1</title>
+    
+</head>
+
+<body>
+    
+    <div id="encabezado">
+        <img src="recursos/unnamed.jpg">
+    </div>
+    <div class="aa">
+        <div class="index">
+            <div class="indice">
+                <a href="#1">Definicion</a>
+                <br>
+                <a href="#2">Etiquetas principales</a>
+                <br>
+                <a href="#3">Etiquetas mas usadas</a>
+                <br>
+                <ul>
+                    <li><a href="#4">Encabezados</a></li>
+                    <li><a href="#5">Parrafos</a></li>
+                    <li><a href="#6">Tablas</a></li>
+                    <li><a href="#7">Listas</a></li>
+                    <li><a href="#8">Imágenes</a></li>
+                    <li><a href="#9">Enlaces</a></li>
+                </ul>
+     
+                
+            </div>
+        </div>
+        
+        <div class="contenido">
+            <div class="html1">
+                    <div id="1" class="tags1">
+                        <h1>Definicion</h1>
+                        <p id="a">
+                            &emsp;Cuando hablamos de HTML5 lo primero que tenemos que saber es que es la última versión de la tecnología HTML, cuyas siglas corresponden a “HyperText Markup Language”, que tiene el siguiente significado:
+                            HyperText, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
+                            Markup, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: <code class="codigo"><span class="lt">&lt;</span>p<span class="lt">&gt;</span>HOLA<span class="lt">&lt;</span>/p<span class="lt">&gt;</span></code>.
+                            Languaje, cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web.
+                        </p>
+                        <hr>
+                    </div>
+                    <div id="2" class="tags1">
+                        <h1>Etiquetas principales de un documento html.</h1>
+                        <p>
+                            &emsp;Todos los documentos HTML deben comenzar con una declaración de tipo de documento: <code class="codigo"><span class="lt">&lt;</span>!DOCTYPE html<span class="lt">&gt;</span></code>
+                            El documento HTML en sí mismo comienza <code class="codigo"><span class="lt">&lt;</span>html<span class="lt">&gt;</span></code> y termina con <code class="codigo"><span class="lt">&lt;</span>/html<span class="lt">&gt;</span></code>.
+                            La parte visible del documento HTML está entre <code class="codigo"><span class="lt">&lt;</span>body<span class="lt">&gt;</span></code> y <code class="codigo"><span class="lt">&lt;</span>/body<span class="lt">&gt;</span></code>.
+                        </p>
+                        <hr>
+                    </div>  
+                    <div id="3" class="tags1">
+                        <h1>Las etiquetas mas usadas en html</h1>
+                        <div>
+                            <ol>
+                                <li id="4">
+                                    <h2>Encabezados</h2>
+                                    <p>
+                                        Los encabezados HTML se definen con las etiquetas <code class="codigo"><span class="lt">&lt;</span>h1<span class="lt">&gt;</span></code> to <code class="codigo"><span class="lt">&lt;</span>h6<span class="lt">&gt;</span></code>,
+
+                                        <code class="codigo"><span class="lt">&lt;</span>h1<span class="lt">&gt;</span></code>define el encabezado más importante. <code class="codigo"><span class="lt">&lt;</span>h6<span class="lt">&gt;</span></code> define el encabezado menos importante:
+                                    </p>
+                                </li>
+                                <hr>
+                                <li id="5">
+                                    <h2>Parrafos</h2>
+                                    <p>
+                                        Los párrafos HTML se definen con la etiqueta <code class="codigo"><span class="lt">&lt;</span>p<span class="lt">&gt;</span></code>
+
+                                    </p>
+                                </li>
+                                <hr>
+                                <li id="6">
+                                    <h2>Tablas</h2>
+                                    <p>
+                                        Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y columnas.
+                                        <br>
+                                        La etiqueta <code class="codigo"><span class="lt">&lt;</span>table<span class="lt">&gt;</span></code> define una tabla HTML.
+
+                                            Cada fila de la tabla se define con una etiqueta <code class="codigo"><span class="lt">&lt;</span>tr<span class="lt">&gt;</span></code>. Cada encabezado de tabla se define con una etiqueta <code class="codigo"><span class="lt">&lt;</span>th<span class="lt">&gt;</span></code>. Cada dato / celda de la tabla se define con una etiqueta <code class="codigo"><span class="lt">&lt;</span>td<span class="lt">&gt;</span></code>.
+                                            <br>
+                                            De forma predeterminada, el texto de los elementos <code class="codigo"><span class="lt">&lt;</span>th<span class="lt">&gt;</span></code> está en negrita y está centrado.
+                                            <br>
+                                            De forma predeterminada, el texto de los elementos <code class="codigo"><span class="lt">&lt;</span>td<span class="lt">&gt;</span></code> es regular y está alineado a la izquierda. 
+                                            <br>
+                                            Por ejemplo el siguiente codigo generara la taula de abajo.
+                                            <div class="codi">
+                                                <code class="codigo">
+                                                    <span class="lt">&lt;</span>table<span class="lt">&gt;</span>
+                                                    <br>
+                                                        &nbsp;&nbsp;<span class="lt">&lt;</span>th<span class="lt">&gt;</span><span class="texto">columna1</span><span class="lt">&lt;</span>/th<span class="lt">&gt;</span>
+                                                        <br>
+                                                        &nbsp;&nbsp;<span class="lt">&lt;</span>th<span class="lt">&gt;</span><span class="texto">columna2</span><span class="lt">&lt;</span>/th<span class="lt">&gt;</span>
+                                                        <br>
+                                                        &nbsp;&nbsp;<span class="lt">&lt;</span>th<span class="lt">&gt;</span><span class="texto">columna3</span><span class="lt">&lt;</span>/th<span class="lt">&gt;</span>
+                                                        <br>
+                                                        &nbsp;&nbsp;<span class="lt">&lt;</span>tr<span class="lt">&gt;</span>
+                                                        <br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="lt">&lt;</span>td<span class="lt">&gt;</span><span class="texto">1</span><span class="lt">&lt;</span>/td<span class="lt">&gt;</span>
+                                                            <br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="lt">&lt;</span>td<span class="lt">&gt;</span><span class="texto">2</span><span class="lt">&lt;</span>/td<span class="lt">&gt;</span>
+                                                            <br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="lt">&lt;</span>td<span class="lt">&gt;</span><span class="texto">3</span><span class="lt">&lt;</span>/td<span class="lt">&gt;</span>
+                                                            <br>
+                                                        &nbsp;&nbsp;<span class="lt">&lt;</span>/tr<span class="lt">&gt;</span>
+                                                        <br>
+                                                        &nbsp;&nbsp;<span class="lt">&lt;</span>tr<span class="lt">&gt;</span>
+                                                        <br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="lt">&lt;</span>td<span class="lt">&gt;</span><span class="texto">4</span><span class="lt">&lt;</span>/td<span class="lt">&gt;</span>
+                                                            <br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="lt">&lt;</span>td<span class="lt">&gt;</span><span class="texto">5</span><span class="lt">&lt;</span>/td<span class="lt">&gt;</span>
+                                                            <br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="lt">&lt;</span>td<span class="lt">&gt;</span><span class="texto">6</span><span class="lt">&lt;</span>/td<span class="lt">&gt;</span>
+                                                            <br>
+                                                        &nbsp;&nbsp;<span class="lt">&lt;</span>/tr<span class="lt">&gt;</span>
+                                                        <br>
+                                                    <span class="lt">&lt;</span>/table<span class="lt">&gt;</span>
+                                                </code>
+                                            </div>
+                                            <br>
+                                            <div class="cajaCodi">
+                                                <table id="table-ejemplo">
+                                                    <th>columna1</th>
+                                                    <th>columna2</th>
+                                                    <th>columna3</th>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>2</td>
+                                                        <td>3</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>5</td>
+                                                        <td>6</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                    </p>
+                                </li>
+                                <hr>
+                                <li id="7">
+                                    <h2>Listas</h2>
+                                    <p>
+                                        &emsp;Las listas HTML permiten a los desarrolladores web agrupar un conjunto de elementos relacionados en listas.
+                                        En html hay dos tipos de listas ;
+                                        <ol>
+                                            <li>
+                                                <h3>Listas ordenadas (ol)</h3>
+                                                <p>
+                                                    &emsp; Una lista ordenada comienza con la etiqueta <code class="codigo"><span class="lt">&lt;</span>ol<span class="lt">&gt;</span></code>. Cada elemento de la lista comienza con la etiqueta <code class="codigo"><span class="lt">&lt;</span>li<span class="lt">&gt;</span></code>.
+
+                                                    Los elementos de la lista se marcarán con números de forma predeterminada:
+                                                   <br>
+
+                                                    Por ejemplo el siguiente codigo generara la lista de abajo :
+
+                                                    <div class="cajaCodi">
+                                                        <code class="codigo">
+                                                            <span class="lt">&lt;</span>ol<span class="lt">&gt;</span>
+                                                                <br>
+                                                                &nbsp;&nbsp;<span class="lt">&lt;</span>li<span class="lt">&gt;</span><span class="texto">DOCUMENT 1</span><span class="lt">&lt;</span>/li<span class="lt">&gt;</span>
+                                                                <br>
+                                                                &nbsp;&nbsp;<span class="lt">&lt;</span>li<span class="lt">&gt;</span><span class="texto">DOCUMENT 2</span><span class="lt">&lt;</span>/li<span class="lt">&gt;</span>
+                                                                <br>
+                                                                &nbsp;&nbsp;<span class="lt">&lt;</span>li<span class="lt">&gt;</span><span class="texto">DOCUMENT 3</span><span class="lt">&lt;</span>/li<span class="lt">&gt;</span>
+                                                                <br>    
+                                                            <span class="lt">&lt;</span>/ol<span class="lt">&gt;</span>
+                                                        </code>
+                                                    </div>
+
+                                                    <div class="cajaCodi">
+                                                        
+                                                        <ol>
+                                                            <li>1. DOCUMENT 1</li>
+                                                            <li>2. DOCUMENT 2</li>
+                                                            <li>3. DOCUMENT 3</li>
+                                                        </ol>
+                                                    </div>
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <h3>listas desordenadas (ul):</h3>
+                                                <p>
+                                                    &emsp;Una lista desordenada comienza con la etiqueta <code class="codigo"><span class="lt">&lt;</span>ul<span class="lt">&gt;</span></code>. Cada elemento de la lista comienza con la etiqueta <code class="codigo"><span class="lt">&lt;</span>li<span class="lt">&gt;</span></code>.
+
+                                                    Los elementos de la lista se marcarán con viñetas (pequeños círculos negros) de forma predeterminada:
+                                                    
+                                                    <div class="cajaCodi">
+                                                        <code class="codigo">
+                                                            <span class="lt">&lt;</span>ul<span class="lt">&gt;</span>
+                                                                <br>
+                                                                &nbsp;&nbsp;<span class="lt">&lt;</span>li<span class="lt">&gt;</span><span class="texto">DOCUMENT 1</span><span class="lt">&lt;</span>/li<span class="lt">&gt;</span>
+                                                                <br>
+                                                                &nbsp;&nbsp;<span class="lt">&lt;</span>li<span class="lt">&gt;</span><span class="texto">DOCUMENT 2</span><span class="lt">&lt;</span>/li<span class="lt">&gt;</span>
+                                                                <br>
+                                                                &nbsp;&nbsp;<span class="lt">&lt;</span>li<span class="lt">&gt;</span><span class="texto">DOCUMENT 3</span><span class="lt">&lt;</span>/li<span class="lt">&gt;</span>
+                                                                <br>
+                                                            <span class="lt">&lt;</span>/ul<span class="lt">&gt;</span>
+                                                        </code>
+                                                    </div>
+                                                    <div class="cajaCodi">
+                                                        <ul>
+                                                            <li>DOCUMENT 1</li>
+                                                            <li>DOCUMENT 2</li>
+                                                            <li>DOCUMENT 3</li>
+                                                        </ul>
+                                                    </div>
+
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </li>
+                                <hr>
+                                <li id="8">
+                                    <h2>Imágenes</h2>
+                                    <p>
+                                        La etiqueta <code class="codigo"><span class="lt">&lt;</span>img<span class="lt">&gt;</span></code> se utiliza para incrustar una imagen en una página web.
+
+                                        Las imágenes no se insertan técnicamente en una página web; las imágenes están vinculadas a páginas web. La etiqueta <code class="codigo"><span class="lt">&lt;</span>img<span class="lt">&gt;</span></code> crea un espacio de espera para la imagen de referencia.
+
+                                        La etiqueta <code class="codigo"><span class="lt">&lt;</span>img<span class="lt">&gt;</span></code> está vacía, solo contiene atributos y no tiene etiqueta de cierre.
+
+                                        La etiqueta <code class="codigo"><span class="lt">&lt;</span>img<span class="lt">&gt;</span></code> tiene dos atributos obligatorios:
+
+                                        src: especifica la ruta a la imagen
+                                        alt: especifica un texto alternativo para la imagen
+                                        <br>
+
+                                        <span class="sintaxis">Sintaxis</span>
+                                        <div class="cajaCodi">
+                                            <code class="codigo">
+                                                <span class="lt">&lt;</span>img<span> src</span>="" <span> alt</span>="" <span class="lt">&gt;</span>
+                                            </code>
+                                        </div>
+                                    
+                                    </p>
+                                </li>
+                                <hr>
+                                <li id="9">
+                                    <h2>Enlaces</h2>
+                                    <p>
+                                        Los enlaces HTML son hipervínculos.
+
+                                        Puede hacer clic en un enlace y saltar a otro documento.
+
+                                        Cuando mueva el mouse sobre un enlace, la flecha del mouse se convertirá en una pequeña mano.
+                                        <br>
+                                        La etiqueta <code class="codigo"><span class="lt">&lt;</span>a<span class="lt">&gt;</span></code> HTML define un hipervínculo. Tiene la siguiente sintaxis:
+                                        <br>
+                                        <span class="sintaxis">Sintaxis</span>
+                                        <div class="cajaCodi">
+                                            <code class="codigo">
+                                                <span class="lt">&lt;</span>a <span>href</span>="<span class="texto">ruta o enlace de la imagen</span>"<span class="lt">&gt;</span><span class="texto">texto del enlace</span> <span class="lt">&lt;</span>/a<span class="lt">&gt;</span>
+                                            </code>
+                                        </div>
+
+                                        El atributo más importante del elemento <code class="codigo"><span class="lt">&lt;</span>a<span class="lt">&gt;</span></code> es el atributo href, que indica el destino del enlace.
+
+                                        El texto del enlace es la parte que será visible para el lector.
+                                        
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="footer">
+        <br>
+        <p><a href="index.html">Home</a><a href="html2.html">Html part2</a><a href="css1.html">Css part1</a><a href="css2.html">Css part2</a></p>
+        <br>
+    </div>
+</body>
+
+</html>

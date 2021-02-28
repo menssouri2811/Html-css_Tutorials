@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <link rel="stylesheet" href=estils/Styles2.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="recursos/html_css.jpg">
+    <title>css part1</title>
+    
+</head>
+
+<body>
+    
+    <div id="encabezado">
+        <img src="recursos/CSS3a.png">
+    </div>
+    <div class="aa">
+        <div class="index">
+            <div class="indice">
+                <a href="#1">Definicion</a>
+                <br>
+                <a href="#2">Sintaxis</a>
+                <br>
+                <a href="#3">Selectores</a>
+                <ul>
+                    <li><a href="#4">El selector de id</a></li>
+                    <li><a href="#5">El selector de clases</a></li>
+                    <li><a href="#6">El selector universal</a></li>
+                    <li><a href="#7">El selector de agrupación</a></li>
+                    <li><a href="#8">Combinador de descendientes</a></li  >
+                </ul>
+     
+                
+                </div>
+        </div>
+        
+            <div class="contenido">
+            <div class="css1">
+                    <div id="1" class="tags1">
+                        <h1>Definicion</h1>
+                        <p id="a">
+                            CSS son las siglas de C ascading S tyle S heets.
+                            <br>
+                            CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.
+                            <br>
+                            CSS ahorra mucho trabajo . Puede controlar el diseño de varias páginas web a la vez
+                            <br>
+                            Las hojas de estilo externas se almacenan en archivos CSS
+                            <br>
+                            Se utiliza para definir estilos para sus páginas web, incluido el diseño, el diseño y las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla.
+
+                           
+                        </p>
+                        <hr>
+                    </div>
+                    <div id="2" class="tags1">
+                        <h1>Sintaxis</h1>
+                        <div class="cajaCodi">
+                            <code class="codigo">
+                                &emsp;&emsp;p    <span class="lt">   {</span><span class="texto">color:red;height:15px;</span><span class="lt">}</span>
+                                <p>selector     {declaracion;      declaracion;}</p>
+                            </code>
+                        </div>
+                        <p>
+                            El selector apunta al elemento HTML al que desea aplicar estilo.
+                            <br>
+                            El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
+                            <br>
+                            Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
+                            <br>
+                            Varias declaraciones de CSS se separan con punto y coma y los bloques de declaración están rodeados por llaves.  
+                        </p>
+                        <hr>
+                    </div>
+                        <div id="3" class="tags1">
+                            <h1>Selectores</h1>
+                            <ol>  
+                                <li id="4">
+                                    <h2>El selector de id</h2>
+                                    <p>
+                                        El selector de id utiliza el atributo id de un elemento HTML para seleccionar un elemento específico.
+                                        <br>
+                                        La identificación de un elemento es única dentro de una página, por lo que el selector de identificación se utiliza para seleccionar un elemento único.
+                                        <br>
+                                        Para seleccionar un elemento con una identificación específica, escriba un carácter de almohadilla (#), seguido de la identificación del elemento.      
+                                        </p>
+                                        
+                                        <span class="sintaxis">Sintaxis</span>
+                                        <div class="cajaCodi">
+                                            <code class="codigo">
+                                                <span class="lt">#</span>id<span class="lt">{</span><span class="texto">color:blue;</span><span class="lt">}</span>    
+                                            </code>
+                                        </div>
+                                        <hr>
+                                </li>
+                                <li id="5">
+                                    <h2>El selector de clases</h2>
+                                    <p>
+                                        El selector de clases selecciona elementos HTML con un atributo de clase específico.
+                                        <br>
+                                        Para seleccionar elementos con una clase específica, escriba un carácter de punto (.), Seguido del nombre de la clase.    
+                                    </p>
+                                    <span class="sintaxis">Sintaxis</span>
+                                        <div class="cajaCodi">
+                                            <code class="codigo">
+                                               .class<span class="lt">{</span><span class="texto">font-size:15px;</span><span class="lt">}</span>    
+                                            </code>
+                                        </div>
+                                        <hr>
+                                </li>
+                                <li id="6">
+                                    <h2>El selector universal </h2>
+                                    <p>
+                                        El selector universal (*) selecciona todos los elementos HTML de la página.
+                                    </p>
+                                    <span class="sintaxis">Sintaxis</span>
+                                        <div class="cajaCodi">
+                                            <code class="codigo">
+                                                *<span class="lt">{</span>  <span class="texto">text-align:center;</span><span class="lt">}</span>    
+
+                                            </code>
+                                        </div>
+                                        <hr>
+                                </li>
+                                <li id="7">
+                                    <h2>El selector de agrupación</h2>
+                                    <p>
+                                        El selector de agrupación selecciona todos los elementos HTML con las mismas definiciones de estilo.
+                                        <br>
+                                    </p>
+                                    <span class="sintaxis">Sintaxis</span>
+                                    <div class="cajaCodi">
+                                        <code class="codigo">
+                                            h1,h2<span class="lt">{</span>  <span class="texto">text-align:center;</span><span class="lt">}</span>    
+
+                                        </code>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li id="8">
+                                    <h2 >Combinador de descendientes</h2>
+                                    <p>
+                                        El combinador " " (espacio) selecciona los elementos que son descendientes del primer elemento.    
+                                    </p>
+                                    <span class="sintaxis">Sintaxis</span>
+                                    <div class="cajaCodi">
+                                        <code class="codigo">
+                                           div p<span class="lt">{</span>  <span class="texto">background-color:black:</span><span class="lt">}</span>    
+                                        </code>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    <div class="footer">
+        <br>
+        <p><a href="index.html">Home</a><a href="html1.html">Html part1</a><a href="html2.html">Html part2</a><a href="css2.html">Css part2</a></p>
+        <br>
+    </div>
+</body>
+
+</html>
